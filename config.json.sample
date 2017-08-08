@@ -1,0 +1,19 @@
+[
+  {
+    "nickname": "discordbot",
+    "server": "your.irc.server",
+    "discordToken": "YOUR-DISCORD-TOKEN",
+    "channelMapping": {
+      "#your-discord-channel": "#your-irc-channel"
+    },
+    "autoSendCommands": [
+      ["PRIVMSG", "NickServ", "IDENTIFY PASSWORD"]
+    ],
+    "muteDiscordbot": true,
+    "commandCharacters": ["!", "."],
+    "ircStatusNotices": {
+      "join": true,
+      "leave": true
+    }
+  }
+]
