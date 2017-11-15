@@ -3,3 +3,4 @@ version: '2'
 services:
     discord-irc:
         build: .
+        restart: always
